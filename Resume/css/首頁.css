@@ -59,6 +59,13 @@ header{
     font-size:22px;
     white-space:nowrap;
 }
+.texttt{
+  font-family: 'Noto Sans TC',sans-serif;
+  font-size: 22px;
+  position: absolute;
+  top: 9cm;
+  left: 5.8cm;
+}
 .head_text2 pre{
     color: black;
     font-family: 'Noto Serif TC', serif;
