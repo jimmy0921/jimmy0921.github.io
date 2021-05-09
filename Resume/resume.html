@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url("CSS/首頁.css");
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Resume</title>
+</head>
+<body>
+    <header>
+        <div class="photo1">
+            <img  src="image/photo.jpg">
+        </div>
+        <hr class="hr_head"  color="whitesmoke" align="left" >
+        <div class="head_text">陳俊宇</div>
+        <div class="head_text2">
+        <pre>
+          系級:資管二乙
+          興趣:聽音樂、看電影、玩耳機
+        </pre>
+        </div>
+      <img src="image/header.png" class="head_color" >
+
+      <a href="https://www.instagram.com/jimmychen8103/"> 
+      <img src="image/ig.png" class="ig">
+      </a>
+
+      <a href="https://www.facebook.com/jimmy0921/"> 
+      <img src="image/Facebook.jpg" class="fb" alt="facebook">
+      </a>
+
+      <a href="mailto:s10844234@cycu.edu.tw">
+      <img src="image/mail.png" class="mail">
+      </a>
+    </header>
+    
+
+<div class="backco">
+  <div class="skills">
+    <div class="skill">
+      <div class="skill-name">HTML</div>
+      <div class="skill-bar">
+        <div class="skill-per" per="80"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">CSS</div>
+      <div class="skill-bar">
+        <div class="skill-per" per="75"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">Javascript</div>
+      <div class="skill-bar">
+        <div class="skill-per" per="40"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">Python</div>
+      <div class="skill-bar">
+        <div class="skill-per" per="55"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">Java</div>
+      <div class="skill-bar">
+        <div class="skill-per" per="70"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">C#</div>
+      <div class="skill-bar">
+        <div class="skill-per" per="65"></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    $('.skill-per').each(function(){
+      var $this = $(this);
+      var per = $this.attr('per');
+      $this.css("width",per+'%');
+      $({animatedValue: 0}).animate({animatedValue: per},{
+        duration: 1000,
+        step: function(){
+          $this.attr('per', Math.floor(this.animatedValue) + '%');
+        },
+        complete: function(){
+          $this.attr('per', Math.floor(this.animatedValue) + '%');
+        }
+      });
+    });
+  </script>
+</div>
+
+<div class="second">
+
+</div>
+  
+<div class="third">
+  <div class="wrapper">
+    <section class="block">
+      <div class="each-year">
+        <div class="title">Experience</div>
+        <div class="each-event">
+          <div class="event-description">大一上<br>通過管理學課程上服務學習的機會與同學一起到動輔社幫忙打掃環境、幫狗狗們洗澡。
+          </div>
+        </div>
+        <div class="each-event">
+          <div class="event-description">大一下<br>在企業概論課程上，與方舟教養院合作進行蛋捲義賣，不僅幫助院方，我也學習到了專案規劃與網路行銷的能力。
+          </div>
+        </div>
+        <div class="each-event">
+          <div class="event-description">大二上<br>網路程式設計課的的期末專題，是我第一次接觸網頁後端管理的部分，對我來說非常有挑戰性。
+          </div>
+        </div>
+        <div class="each-event">
+          <div class="event-description">大二下(NOW)<br>這是這學期的課程，多媒體程式設計讓我透過HTML/CSS/JAVASCRIPT設計自己的網頁，相當有趣。
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+    var $element = $('.each-event, .title');
+var $window = $(window);
+
+$window.on('scroll resize', check_for_fade);
+$window.trigger('scroll');
+
+function check_for_fade() {
+  var window_height = $window.height();
+  
+  $.each($element, function (event) {
+    var $element = $(this);
+    var element_height = $element.outerHeight();
+    var element_offset = $element.offset().top;
+    space = window_height - (element_height + element_offset - $(window).scrollTop());
+    if (space < 60) {
+      $element.addClass('non-focus');
+    } else {
+      $element.removeClass('non-focus');
+    }
+  });
+};
+  </script>
+</div>
+    
+
+<img src="image/PH1.png" class="ph1">
+<img src="image/PH2.jpg" class="ph2">
+<img src="image/PH3.jpg" class="ph3">
+<img src="image/PH4.png" class="ph4">
+
+</body>
+</html>
