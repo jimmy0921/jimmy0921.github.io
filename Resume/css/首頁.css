@@ -78,7 +78,39 @@ header{
     width: 808px;
     height: 550px;
 }
+.guy_ph
+{
+  border: 2px white solid;
+  width: 250px;
+  height: 350px;
+  position: absolute;
+  top: 12.5cm;
+  left: 27cm;
+}
 
+.text_sec{
+  font-family: 'Noto Sans TC',sans-serif;
+}
+.text_sec h1{
+  text-decoration: underline;
+  position: absolute;
+  top:12cm;
+  left: 37cm;
+}
+.text_sec pre{
+  position: absolute;
+  top: 13.5cm;
+  left: 34cm;
+  font-size: 30px;
+  font-weight: bold;
+  transition: all .3s linear;
+}
+.text_sec pre:hover{
+  color: #d81616;
+}
+.text_sec span{
+  text-decoration: underline;
+}
 /*..................skill bar開始...................*/
 
 .skills{
@@ -137,7 +169,6 @@ header{
 /*..................skill bar結束...................*/
 
   .third{
-    background-color: rgb(235, 154, 255);
     margin-top: -3px;
     margin-left: -9px;
     width: 1650px;
@@ -240,6 +271,10 @@ header{
     top: 45cm;
     border: 2px green solid;
 }
+.ph1:hover{
+transform: rotate(-10deg);
+}
+
 .ph2{
     width: 450px;
     height: 300px;
@@ -248,6 +283,10 @@ header{
     left: 33.5cm;
     border: 2px green solid;
 }
+.ph2:hover{
+  transform: rotate(10deg);
+  }
+
 .ph3{
     width: 450px;
     height: 300px;
@@ -255,6 +294,10 @@ header{
     top: 31cm;
     border: 2px green solid;
 }
+.ph3:hover{
+  transform: rotate(10deg);
+  }
+
 .ph4{
     width: 450px;
     height: 300px;
@@ -263,6 +306,9 @@ header{
     left: 33.5cm;
     border: 2px green solid;
 }
+.ph4:hover{
+  transform: rotate(10deg);
+  }
 
 .ig{
     position: absolute;
