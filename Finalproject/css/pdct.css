@@ -1,20 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
-.logo{
-    float: left;
-    padding:26px 10px 0px 10px; 
-    margin-bottom: -75px;
-    margin-left: 10cm;
-    }
 
-    .cart {
-    float: right;
-    }
 
-    .member {
-    float: right;
-    margin-top: 12px;
-    } 
-
+.search{
+  float: left;
+  margin-top: 35px;
+  margin-left:40px;
+  width: 250px;
+}
+.search-bar {
+  height: 38px;
+  font-size:large;
+}
    .title{
     float: left;
     padding: 20px 75px 20px 75px;
@@ -30,7 +26,7 @@
    }
    .back{
    width: 100%;
-   height: 20cm;
+   height: 15cm;
    float: left;
    background-color: azure;
    }
@@ -43,8 +39,8 @@
    .select {
     float: left;
     padding: 20px;
-    margin-left: 40px;
-    margin-top: 100px;
+    margin-left: 80px;
+    margin-top: 15px;
   }
    .select tr{
     font-weight: bold;
@@ -78,8 +74,41 @@ font-family: 'Noto Sans TC',sans-serif;
     margin-left: 80px;
 }
 
-
-
+.putback{
+  float: left;
+  width: 100%;
+  background-color: azure;
+}
+.talk {
+  margin: 0 auto;
+  width: 1000px;
+  padding: 0 20px;
+}
+.dark {
+  border: 2px solid #dedede;
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  height: 100px;
+}
+.time-left {
+  float: left;
+  color: #999;
+}
+.btn_putback{
+  width: 100px;
+  height: 40px;
+  background-color: #838383;
+  color: white;
+  border-radius: 5px;
+  border: #999;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.btn_putback:hover{
+  opacity: 0.7;
+}
 
 .and{
     width:100%; 
@@ -269,3 +298,132 @@ font-family: 'Noto Sans TC',sans-serif;
     float: right;
     padding-right: 8px;
   }
+
+
+
+/*...................................登入/註冊...............................*/
+.login{
+  float: left;
+  padding:  20px 20px 20px 20px;
+  border-bottom: 4px brown solid;
+  margin-top: 20px;
+  margin-left: 110px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Noto Sans TC',sans-serif;
+ }
+ .login:hover{
+  background-position:0;
+  font-size:1.6em;
+ }
+ .login button{
+   font-size: 15px;
+   font-family: 'Noto Sans TC',sans-serif;
+   border: 0px;;
+   background-color: white;
+ }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 1500px;
+  height:100%;
+  overflow: hidden;
+  background-color: transparent;
+  padding-top: 150px;
+  padding-left: 170px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin:3% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid gray;
+  width: 500px;
+  height:600px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button-1 {
+  background-color: gray;
+  color: white;
+  padding: 0 25px 0 25px;
+  margin-top: 25px;
+  margin-left: 150px; 
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.button-1:hover {
+  opacity: 0.8;
+}
+
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+  

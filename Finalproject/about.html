@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於我們</title>
+    <style>
+        @import url("css/about.css");
+    </style>
+    
+</head>
+<body>
+    <div style="width: 100%; height: 100px; background-color: white;">
+        <div class="login" >
+            <a onclick="document.getElementById('id01').style.display='block'"><button type="button" style="color: brown;">登入/註冊</button></a>
+          </div>
+        
+        <div id="id01" class="modal">
+          <form class="modal-content animate">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                title="Close Modal">&times;</span>
+              <img src="image/ball.png" height="200px" alt="Avatar" class="avatar" style="border-radius: 50%;">
+            </div>
+            <div >
+              <label for="membersID" style="font-size: 24px; font-family: 'Noto Sans TC',sans-serif;"><b>使用者名稱/Username</b></label>
+              <input type="text" placeholder="請輸入使用者名稱" name="membersID" required>
+  
+  
+              <div style="margin-top: 50px;">
+              <label for="pwd" style="font-size: 24px; font-family: 'Noto Sans TC',sans-serif;"><b>密碼/Password</b></label>
+              <input type="password" placeholder="請輸入密碼" name="pwd" required>
+  
+              <label>
+                  <input type="checkbox" checked="checked" name="remember"> 記住我
+                </label>
+               </div>
+              <button type="submit" class="button-1"><b>登入</b></button>
+              <a href="register.html"> <button type="button" class="button-1" style="margin-left: 270px;"><b>註冊</b></button></a> 
+            </div>
+          </form>
+        </div>
+  
+        <div class="title" style="border-bottom: 4px rgb(253, 165, 2) solid;color: rgb(253, 165, 2); cursor: pointer; margin-left: 130px;" onclick="location.href='index.html';">首頁</div>
+        <div class="title" style="border-bottom: 4px rgb(162, 65, 251) solid;color: rgb(162, 65, 251); cursor: pointer;" onclick="location.href='product.html';">商品一覽</div>
+        <div class="title" style="border-bottom: 4px rgb(0, 146, 37)  solid;color: rgb(0, 146, 37);" onclick="location.href='rules.html';">規則介紹</div>
+        <div class="title" style="border-bottom: 4px rgb(250, 40, 40) solid; color: rgb(250, 40, 40);" onclick="location.href='member.html';">會員中心</div>
+        <div class="title" style="border-bottom: 4px rgb(33, 99, 255) solid;color:rgb(33, 99, 255) ;" onclick="location.href='cart.html'">購物清單</div>
+           <div class="search">
+            <input class="search-bar" type="text" name="search" id="search" placeholder="Search...">
+          </div>
+          <div style="float: left; margin-top:50px;">
+              <button type="button" style="margin-left: 5px; padding: 0; border: 0; background-color: white;"><img src="image/search.jpg" style="height: 50px; width: 50px; "></button>
+          </div>
+        </div>
+   
+
+
+
+        
+        <div class="sec">
+        <div class="text1"><h1>About Us</h1></div>
+
+        
+        <div class="text2" style=" border-bottom: 1px gray solid;;"><h1>前端/資管二乙</h1></div>
+        <div class="first">
+        <div style="width: 800px; text-align: center;" >
+       <img src="image/組員/96111.jpg" class="img1">
+       <div style="margin-left: 380px;">
+       <p><h1 >Name&nbsp;:&nbsp;黃彥翔</h1></p>
+       <p><h1 >Birth&nbsp;:&nbsp;2001/04/19</h1></p>
+       <p><h1 >Contact Me&nbsp;:&nbsp;0988896154</h1></p>
+       </div>
+       <div style="margin-left: 380px;">
+          <a href="https://www.facebook.com/profile.php?id=100010653063977"><img src="image/組員/Facebook.jpg" style="height: 80px; width: 80px;"></a> 
+          <a href="https://www.instagram.com/sean_huang_0419/"><img src="image/組員/ig.png" style="height: 80px; width: 80px; margin-left: 75px;"></a> 
+          <a href="mailto: sean041950412@gmail.com"><img src="image/組員/mail.png" style="height: 80px; width: 80px; margin-left:75px;"></a>
+        </div>
+        </div>
+        </div>
+
+       
+        <div class="second">
+        <div style="width: 800px; text-align: center;" >
+       <img src="image/組員/cjy.png" class="img2">
+       <div style=" margin-right: 100px;">
+       <p><h1 >Name&nbsp;:&nbsp;陳俊宇</h1></p>
+       <p><h1 >Birth&nbsp;:&nbsp;2001/09/21</h1></p>
+       <p><h1 >Contact Me&nbsp;:&nbsp;0983346477</h1></p>
+       </div>
+       <div style=" margin-right: 100px;">
+          <a href="https://www.facebook.com/jimmy0921/"><img src="image/組員/Facebook.jpg" style="height: 80px; width: 80px;"></a> 
+          <a href="https://www.instagram.com/jimmychen8103/"><img src="image/組員/ig.png" style="height: 80px; width: 80px; margin-left: 75px;"></a> 
+          <a href="mailto:s10844234@cycu.edu.tw"><img src="image/組員/mail.png" style="height: 80px; width: 80px; margin-left:75px;"></a>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="text2" style=" border-bottom: 1px gray solid; margin-top: 0;"><h1>後端/資管二甲</h1></div>
+        <div class="first">
+        <div style="width: 800px; text-align: center;" >
+       <img src="image/組員/214638.jpg" class="img1" style="width: 500px;height: 590px;">
+       <div style="margin-left: 380px;">
+       <p><h1 >Name&nbsp;:&nbsp;高冠宏</h1></p>
+       <p><h1 >Birth&nbsp;:&nbsp;2001/03/09</h1></p>
+       <p><h1 >Contact Me&nbsp;:&nbsp;0900245817</h1></p>
+       </div>
+       <div style="margin-left: 380px;">
+          <a href="https://m.facebook.com/profile.php"><img src="image/組員/Facebook.jpg" style="height: 80px; width: 80px;"></a> 
+          <a href="https://www.instagram.com/kao_kuanhong/"><img src="image/組員/ig.png" style="height: 80px; width: 80px; margin-left: 75px;"></a> 
+          <a href="kitghu56435@gmail.com"><img src="image/組員/mail.png" style="height: 80px; width: 80px; margin-left:75px;"></a>
+        </div>
+        </div>
+        </div>
+
+
+
+
+        <div class="second">
+        <div style="width: 800px; text-align: center;" >
+       <img src="image/組員/511485.jpg" class="img2">
+       <div style=" margin-right: 100px;">
+       <p><h1 >Name&nbsp;:&nbsp;彭喆珉</h1></p>
+       <p><h1 >Birth&nbsp;:&nbsp;2000/09/10</h1></p>
+       <p><h1 >Contact Me&nbsp;:&nbsp;0910799186</h1></p>
+       </div>
+       <div style=" margin-right: 100px;">
+          <a href="https://www.facebook.com/profile.php?id=100000271708659"><img src="image/組員/Facebook.jpg" style="height: 80px; width: 80px;"></a> 
+          <a href="https://www.instagram.com/agie_0910/"><img src="image/組員/ig.png" style="height: 80px; width: 80px; margin-left: 75px;"></a> 
+          <a href="mailto:mike5533.mj@gmail.com"><img src="image/組員/mail.png" style="height: 80px; width: 80px; margin-left:75px;"></a>
+        </div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="and">
+        <footer style="text-align: center; color: white;"  >
+            <br><br>
+            Copyright@2021,<a href="about.html" style="color: white;"> 資訊管理學系多媒體程式設計課程,第一組</a> <br />
+            所有圖片及商品資料僅使用於第一組109-2學期期末專案。
+        </footer>
+    </div>
+
+    
+    <script>
+        // Get the modal
+      var modal = document.getElementById('id01');
+    
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+        </script>
+</body>
+</html>

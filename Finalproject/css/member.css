@@ -1,18 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+   
 
 
-    .search{
-        float: left;
-        margin-top: 35px;
-        margin-left:40px;
-        width: 250px;
-      }
-      .search-bar {
-        height: 38px;
-        font-size:large;
-      }
-
-   .title{
+.title{
     float: left;
     padding: 20px 75px 20px 75px;
     margin-top: 20px;
@@ -25,75 +15,155 @@
     background-position:0;
     font-size:1.6em;
    }
-   .back{
+   
+   .search{
+    float: left;
+    margin-top: 35px;
+    margin-left:40px;
+    width: 250px;
+  }
+  .search-bar {
+    height: 38px;
+    font-size:large;
+  }
+
+  .sec{
     width: 100%;
-    height: 18cm;
+    height: 22cm;
+    float: left;
+    border-bottom:2px gray solid;
+    background-color: azure;
+    margin-top: 20px;
+    border-top: 2px gray solid;
+}
+.sec h1{
+    text-align: center;
+    font-family: 'Noto Sans TC',sans-serif ;
+}
+
+.value{
+    float: left;
+    width: 100%;
+    margin-left: 550px;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    border:#999;
+    font-size: 25px; 
+    margin-left: 900px;
+    margin-top: 30px;
+    font-family: 'Noto Sans TC',sans-serif ;
+}
+.button:hover{
+  opacity: 0.7;
+}
+
+
+.trd{
+    width: 100%;
+    height: 30cm;
+    float: left;
+    border-bottom:2px gray solid;
+    background-color: azure;
+    border-top: 2px gray solid;
+}
+.trd h1{
+    text-align: center;
+    font-family: 'Noto Sans TC',sans-serif ;
+}
+
+.cart_pdct{
+    background-color: rgb(236, 236, 236);
+    width: 1400px;
+    height: 330px;
+   margin-left: 250px;
+   opacity: 1;
+}
+.cart_pdct:hover{
+    opacity: 0.7;
+    background-color: #999;
+}
+.pdct_2{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px black solid;
+  }
+  .pdct_2 img{
+    width: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-bottom: 4px blue solid;
+  }
+ 
+  .pdct_3{
+      float: left;
+      margin-left: 50px;
+      width: 600PX;
+  }
+
+
+  .fth{
+    width: 100%;
+    height: 15cm;
     float: left;
     background-color: azure;
-    }
-    .back h1{
-        margin-top: 50px;
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Noto Sans TC',sans-serif;
-    }
-    .back h3{
-        margin-top: 20px;
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Noto Sans TC',sans-serif;
-    }
+  }
+  .fth h1{
+    text-align: center;
+    font-family: 'Noto Sans TC',sans-serif ;
+}
+.clickstar{
+    color:#B3D9D9;
+    cursor: pointer;
+    font-size:5cm;
+    transition:0.3s;
+}
+.clickstar:hover{
+    color:#4b8383;
+}
 
-    .ifram{
-        margin-left: 610px;
-    }
+.comment{
+    margin-top:1cm;
+    margin-left:9cm;
+    font-size:30px;
+}
 
-
-
-    .back2{
-        border-top: 4px rgb(41, 115, 253) solid;
-        width: 100%;
-        height: 26cm;
-        float: left;
-        background-color: azure;
-        }
-    .back2 h1{
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Noto Sans TC',sans-serif;
-    }
-    .back2 h3{
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Noto Sans TC',sans-serif;
-    }
-
-
-    .font_battle{
-        font-family: 'Noto Sans TC',sans-serif;
-        font-size: 24px;
-    }
-
-    .official{
-        opacity: 1;
-    }
-    .official:hover{
-        opacity: 0.5;
-    }
+tr{
+background-color: rgb(236, 236, 236);
+}
+tr:hover {
+background-color: #39affd;
+opacity: 0.7;
+}
 
 
 
 
 
-    .and{
-        width:100%; 
-        height:100px;
-        background-color: black;
-        float: left;
-        margin-top: 20px;
-      }
 
-      /*...................................登入/註冊...............................*/
+
+
+
+
+
+.and{
+    width:100%; 
+    height:100px;
+    background-color: black;
+    float: left;
+    margin-top: 10px;
+  }
+
+  /*...................................登入/註冊...............................*/
 .login{
     float: left;
     padding:  20px 20px 20px 20px;
